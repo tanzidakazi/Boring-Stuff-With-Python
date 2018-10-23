@@ -44,9 +44,3 @@ for character in message:
 print(countCharacter)
 pprint.pprint(countCharacter)
 #pprint(pprint.pformat(countCharacter))
-
-
-
-
-
-    
