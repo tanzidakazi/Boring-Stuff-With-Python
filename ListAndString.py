@@ -3,7 +3,7 @@
 # insert() List Method
 # remove() List Method
 # sort() List Method
-
+'''import copy
 friendList=['Mahmuda', 'Mazdia', 'Samiha', 'Sherin', 'Shegufta', 'abc', 'qwe']
 
 print('Index of Mahmuda is ')
@@ -34,9 +34,13 @@ print(friendList)
 friendList.sort(key=str.lower)
 print(friendList)
 
-
 # copy() Function
 # deepcopy() Funtion
+familyList = copy.copy(friendList)
+#familyList[1]='Nephew'
+familyList[1]= ['Mum', 'Dad', 'Brother']
+print(familyList)
+'''
 
 # upper(), lower() String Method
 # isupper(), islower() String Method
