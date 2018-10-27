@@ -50,3 +50,52 @@ print(familyList)
 # rjust(), ljust(), center() Justifying Text
 # strip(), rstrip(), lstrip() Removing Whitespace
 # Copying and Pasting with paperclip module
+
+string1= 'Mahmuda went to London \n'
+print(string1)
+
+print('Press 1 for upper()')
+print('Press 2 for lower()')
+print('Press 3 for isupper()')
+print('Press 4 for islower()')
+print('Press 5 for isalpha()')
+print('Press 6 for isalpha()')
+print('Press 7 for isalnum()')
+print('Press 8 for isdecimal()')
+print('Press 9 for isspace()')
+print('Press 10 for istitle()')
+
+def manipulateString(x):
+    for i in range(10):
+        x=input()
+        if x=='1':
+            print(string1.upper())
+        elif x=='2':
+            print(string1.lower())
+        elif x=='3':
+            print(string1.isupper())
+        elif x=='4':
+            print(string1.islower())
+        
+manipulateString(string1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
